@@ -16,15 +16,17 @@
     />
   </head>
   <body>
-    <header>
+    
+    <header class="header"> <!-- Respecto a BEM, este header es un bloque. -->
       <!-- Para que los enlaces funciones correctamente debemos redear el elemento deseado con la etiqueta de enlace (etiquete a). -->
-      <a href="index.html">
-        <img src="img/logo.png" alt="Logo del sitio" />
+      <a href="index.html"> <!-- Este es un elemento del bloque header. -->
+        <img class="header__logo" src="img/logo.png" alt="Logo del sitio" /> <!-- Este es otro elemento del bloque header. -->
       </a>
     </header>
-    <nav>
-      <a href="#">Tienda</a>
-      <a href="#">Nosotros</a>
+
+    <nav class="navegacion"> <!-- Este nav es otro bloque.-->
+      <a class="navegacion_enlace navegacion_enlace--activo" href="#">Tienda</a> <!-- Este enlace es un "elemento" del bloque nav. Y además tambien es un "modiifcador". -->
+      <a class="navegacion_enlace" href="#">Nosotros</a> <!-- Este es otro "elemento" del bloque nav. -->
     </nav>
   </body>
 </html>

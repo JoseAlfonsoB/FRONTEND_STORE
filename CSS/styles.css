@@ -57,3 +57,29 @@ h2 {
 h3 {
   font-size: 2.4rem;
 }
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center; /* Centrar horizontal. */
+}
+.header__logo {
+  margin: 3rem;
+}
+/* Navegacion. */
+.navegacion {
+  background-color: var(--primarioSecundario);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Separación cada elemento. */
+}
+.navegacion_enlace {
+  color: var(--blanco);
+  font-family: var(--fuentePrimaria);
+  font-size: 3rem;
+}
+.navegacion_enlace--activo,
+.navegacion_enlace:hover {
+  color: var(--secundario);
+}
