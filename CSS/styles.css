@@ -164,11 +164,11 @@ h3 {
     column-gap: 2rem;
   }
 }
-.nosotros_iamgen {
+.nosotros__imagen {
   grid-row: 1 / 2;
 }
 @media (min-width: 768px) {
-  .nosotros_iamgen {
+  .nosotros__imagen {
     grid-column: 2 / 3;
   }
 }
