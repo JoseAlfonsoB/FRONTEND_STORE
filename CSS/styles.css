@@ -235,4 +235,5 @@ h3 {
   /*font-size: 4rem;*/
   cursor: pointer;
   background-color: var(--secundarioOscuro);
+  color: var(--blanco);
 }
