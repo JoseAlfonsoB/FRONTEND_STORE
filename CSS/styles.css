@@ -226,7 +226,7 @@ h3 {
   font-family: var(--fuentePrimaria);
   padding: 2rem;
   margin-inline: 5rem;
-  transition: background-color 0.3s ease;
+  transition: background-color, font-size 0.3s ease;
   /*transition: background-fot-size 0.3s ease;*/
   grid-column: 1 / 3;
   border-radius: 1rem;
@@ -236,4 +236,5 @@ h3 {
   cursor: pointer;
   background-color: var(--secundarioOscuro);
   color: var(--blanco);
+  font-size: 4rem;
 }
